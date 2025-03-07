@@ -62,24 +62,6 @@ Your project should now be accessible at **http://localhost:8000**.
 
 ### 3️⃣ **Set Up the Database**
 
-#### ✅ **Check If MySQL Is Installed**
-
-```sh
-mysql --version
-```
-
-If not installed, use:
-
-```sh
-brew install mysql
-```
-
-Then, start MySQL:
-
-```sh
-brew services start mysql
-```
-
 #### ✅ **Create Database**
 
 Check If MySQL Is Installed
