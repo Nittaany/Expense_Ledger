@@ -36,7 +36,7 @@
 										echo "<tr>
 											<td>".$x."</td>
 											<td>".$mthexp[$x-1]->Item."</td>
-											<td>"."$ ".$mthexp[$x-1]->Cost."</td>
+											<td>"."₹ ".$mthexp[$x-1]->Cost."</td>
 											<td>".date("d-m-Y",strtotime($mthexp[$x-1]->Date))."</td>
 										</tr>";	
 									  }

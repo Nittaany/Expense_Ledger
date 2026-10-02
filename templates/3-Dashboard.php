@@ -29,7 +29,7 @@
     }
     else
     {
-        $today_expense = "$ ".$today_expense;
+        $today_expense = "₹ ".$today_expense;
     }
 
     // Yesterday's Expenses
@@ -40,7 +40,7 @@
     }
     else
     {
-        $Yesterday_expense = "$ ".$Yesterday_expense;
+        $Yesterday_expense = "₹ ".$Yesterday_expense;
     }
 
     // Last 7 Days' Expenses 
@@ -51,7 +51,7 @@
     }
     else
     {
-        $week_expense = "$ ".$week_expense;
+        $week_expense = "₹ ".$week_expense;
     }
 
     // Last 30 Days' Expenses
@@ -62,7 +62,7 @@
     }
     else
     {
-        $monthly_expense = "$ ".$monthly_expense;
+        $monthly_expense = "₹ ".$monthly_expense;
     }
 
     // Total Expenses
@@ -73,7 +73,7 @@
     }
     else
     {
-        $total_expenses = "$ ".$total_expenses;
+        $total_expenses = "₹ ".$total_expenses;
     }
 
 
@@ -91,7 +91,7 @@
             $currmonexp = 0;
         }
         $budget_left = $budget_left - $currmonexp;
-        $budget_left = "$ ".$budget_left;
+        $budget_left = "₹ ".$budget_left;
     }
 
 ?>

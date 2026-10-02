@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <title>Expense Management</title>
+    <title>Expense Ledger</title>
 </head>
 
 <body>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="top-heading">
-            <h1>Expense Management System</h1>
+            <h1>Expense Ledger</h1>
         </div>
         <form action="index.php" method="post" onsubmit = "return validate()" id="form1">
 

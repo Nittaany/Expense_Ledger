@@ -23,7 +23,7 @@
     <script src="../static/js/yearpicker.js" async></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-    <title>Expense Management</title>
+    <title>Expense Ledger</title>
     
 </head>
 
@@ -43,7 +43,7 @@
         </ul>
 
         <!-- end nav left  -->
-        <h1 class="navbar-text">Expense Management System</h1>
+        <h1 class="navbar-text">Expense Ledger </h1>
         <!-- nav right  -->
         <ul class="navbar-nav nav-right">
             <!-- <li class="nav-item">

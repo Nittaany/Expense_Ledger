@@ -40,7 +40,7 @@
 									echo "<tr>
 										<td>".$x."</td>
 										<td>".$yrexp[$x-1]->Item."</td>
-										<td>"."$ ".$yrexp[$x-1]->Cost."</td>
+										<td>"."₹ ".$yrexp[$x-1]->Cost."</td>
 										<td>".date("d-m-Y",strtotime($yrexp[$x-1]->Date))."</td>
 									</tr>";	
 									}

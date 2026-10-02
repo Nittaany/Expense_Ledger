@@ -19,6 +19,8 @@
                 
                 <form action="8-Monthly-Detailed.php" method="post" id="mthform" onsubmit = "return validate()">
                     <h1 style="display: block; font-family: 'Source Sans Pro'">Monthwise Expense Report</h1>
+                    <h3 style="display: block; font-family: 'Source Sans Pro'">Please enter in the format like "2025-01"</h4>
+                    <br></br>
                         <div class = "mthcontrol">
                             <label style="font-family: 'Source Sans Pro'; font-size: 1.3em; ">From:</label><br>
                             <input class="text-input" type="month" id='mthfrom' value="" name="mthfrom" required="true" style="width: 100%; padding-top: 8px; "><br><br><br>
